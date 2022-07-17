@@ -42,6 +42,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 10px 15px 48px 40px;
+  overflow: scroll;
 }
 
 .menu .menu__item:not(:last-child) {
@@ -116,7 +117,7 @@
 .menu__socials-item {
   position: relative;
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 450px) {
   .menu__socials-item {
     width: calc((100% - 20px) / 2);
     margin: 5px;
@@ -131,7 +132,7 @@
   height: 100%;
   background-color: rgba(33, 33, 33, 0.2);
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 450px) {
   .menu__socials-item:not(:last-child)::after {
     display: contents;
   }

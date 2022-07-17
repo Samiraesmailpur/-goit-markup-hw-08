@@ -17,6 +17,7 @@
     height: 100%;
     justify-content: space-between;
     padding: 10px 15px 48px 40px;
+    overflow: scroll;
   }
 }
 
@@ -92,7 +93,7 @@
 
 .menu__socials-item {
   position: relative;
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 450px) {
     width: calc((100% - 2 * 10px) / 2);
     margin: 5px;
   }
@@ -106,7 +107,7 @@
   height: 100%;
   background-color: rgba(33, 33, 33, 0.2);
 
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 450px) {
     display: contents;
   }
 }
