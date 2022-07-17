@@ -1,6 +1,6 @@
 .filter-list {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: calc(40px - 15px);
 
   @media screen and (max-width: 767px) {
     flex-wrap: wrap;
@@ -8,10 +8,12 @@
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-bottom: 30px;
     justify-content: center;
   }
 
   @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
     justify-content: center;
   }
   &__item:not(:last-child) {

@@ -605,7 +605,7 @@ img {
   margin-bottom: 20px;
   margin-top: 60px;
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .join__text {
     margin-top: 0;
   }
@@ -739,7 +739,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 @media screen and (max-width: 767px) {
   .filter-list {
@@ -752,6 +752,7 @@ img {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .filter-list {
+    margin-bottom: 30px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -759,6 +760,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .filter-list {
+    margin-bottom: 50px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;

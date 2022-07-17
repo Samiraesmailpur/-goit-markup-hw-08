@@ -433,6 +433,7 @@ img {
 }
 
 .hero__title {
+  font-weight: 900;
   margin-bottom: 30px;
   color: var(--main-text-color);
   text-align: center;
@@ -1487,7 +1488,7 @@ body {
   margin-bottom: 20px;
   margin-top: 60px;
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .join__text {
     margin-top: 0;
   }
